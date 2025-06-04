@@ -1,0 +1,77 @@
+.register-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #00b4d8 0%, #48cae4 100%);
+}
+
+.register-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.register-title {
+  color: #023e8a;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group {
+  position: relative;
+}
+
+.register-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #90e0ef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.register-input:focus {
+  border-color: #0096c7;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 150, 199, 0.2);
+}
+
+.register-button {
+  background: #0096c7;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-button:hover {
+  background: #023e8a;
+  transform: translateY(-2px);
+}
+
+.error-message {
+  color: #ef233c;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 8px;
+  border-radius: 4px;
+  background: rgba(239, 35, 60, 0.1);
+}
